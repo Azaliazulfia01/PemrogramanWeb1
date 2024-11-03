@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+nav .logo {
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fab0b0;
+    text-decoration: none;
+}
+
+section {
+    padding: 4rem;
+    text-align: center;
+}
+
+#home {
+    background: url('gambar.jpeg') no-repeat center center/cover;
+    color: #f9caca;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about, #portfolio, #skills, #contact {
+    background: #ffcaca;
+    padding: 3rem 1rem;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-items .item {
+    background: #f49b9b;
+    color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    flex: 1 1 calc(30% - 2rem);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f99d9d;
+    color: #fff;
+}
